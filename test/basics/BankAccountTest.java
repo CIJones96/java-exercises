@@ -3,6 +3,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class BankAccountTest {
     BankAccount account;
@@ -27,5 +28,10 @@ public class BankAccountTest {
     void testWithdraw() {
         account.withdraw(500.00);
         assertEquals(500.00, account.getBalance(), 0.001);
+    }
+
+    @Test
+    void testDepositNegativeAmount() {
+        assertThrows(IllegalArgumentException.class, () -> account.deposit(-100));
     }
 }
