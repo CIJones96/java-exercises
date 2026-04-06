@@ -34,4 +34,14 @@ public class BankAccountTest {
     void testDepositNegativeAmount() {
         assertThrows(IllegalArgumentException.class, () -> account.deposit(-100));
     }
+
+    @Test
+    void testWithdrawNegativeAmount() {
+        assertThrows(IllegalArgumentException.class, () -> account.withdraw(-100));
+    }
+
+    @Test
+    void testWithdrawInsufficientFunds() {
+        assertThrows(IllegalArgumentException.class, () -> account.withdraw(2000));
+    }
 }
