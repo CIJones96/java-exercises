@@ -13,18 +13,6 @@ test/codewars/ — JUnit 5 unit tests for codewars
 - Java 21
 - JUnit 5
 
-## Exercises
-
-| Class | Concepts Covered |
-|---|---|
-| HelloWorld | Basic output |
-| Calculator | Arithmetic, exception handling |
-| Person | OOP, constructors, getters |
-| BankAccount | Encapsulation, state management, validation |
-| FizzBuzz | Conditionals, modulo operator |
-| StringReverser | String manipulation |
-| EvenOdd | Conditionals, modulo operator |
-
 ## Running Tests
 Open in IntelliJ and run tests via the green play button.
 Or from terminal: javac and java commands via WSL2.
