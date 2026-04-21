@@ -9,10 +9,6 @@ src/codewars/ — Codewars kata solutions
 test/basics/ — JUnit 5 unit tests for basics
 test/codewars/ — JUnit 5 unit tests for codewars
 
-## Tech Stack
-- Java 21
-- JUnit 5
-
 ## Running Tests
 Open in IntelliJ and run tests via the green play button.
 Or from terminal: javac and java commands via WSL2.
