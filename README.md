@@ -5,9 +5,7 @@ Daily Java programming exercises to build and maintain core Java skills.
 ## Structure
 
 src/basics/ — fundamentals, OOP, data structures
-src/codewars/ — Codewars kata solutions
 test/basics/ — JUnit 5 unit tests for basics
-test/codewars/ — JUnit 5 unit tests for codewars
 
 ## Running Tests
 Open in IntelliJ and run tests via the green play button.
