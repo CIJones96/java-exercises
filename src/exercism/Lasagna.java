@@ -1,11 +1,20 @@
 package exercism;
 
 public class Lasagna {
-    // TODO: define the 'expectedMinutesInOven()' method
 
-    // TODO: define the 'remainingMinutesInOven()' method
+    public int expectedMinutesInOven(){
+        return 40;
+    }
 
-    // TODO: define the 'preparationTimeInMinutes()' method
+    public int remainingMinutesInOven (int actual){
+        return expectedMinutesInOven() - actual;
+    }
 
-    // TODO: define the 'totalTimeInMinutes()' method
+    public int preparationTimeInMinutes(int layers) {
+        return layers * 2;
+    }
+
+    public int totalTimeInMinutes(int layers, int actual) {
+        return actual + (layers * 2);
+    }
 }
